@@ -12,9 +12,9 @@ puts "Let's plan your trip! What would you like to eat?"
 eats=gets.chomp
 puts "Let's plan your trip! Where would you like to stay in your nights?"
 nights=gets.chomp
-puts 
+
 
 
 # Lastly, puts it all back by interpolating these values in a string.
 
-puts ""
+puts "Your trip has been planned. You will stay at #{stay}, You will eat #{eats}, and you will stay at night in #{nights}"
